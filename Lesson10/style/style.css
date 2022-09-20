@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+body{
+    font-family: 'Oswald';
+}
+
+.container{
+    height: 100%;
+    margin: 0 auto;
+}
+
+header{
+    height: 500px;
+    background-image: url(../media/Rectangle.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 64px;
+
+}
+
+header .description{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.achievements{
+    list-style: none;
+    height: 200px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.achievements .item .value{
+    color: #f7654a;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.achievements .item .unit{
+    font-size: 36px;
+}
+
+.achievements .item .info{
+    color: #999999;
+}
+
+#projects .sub-header{
+    font-size: 36px;
+    text-align: center;
+    margin: 60px 0;
+    text-transform: uppercase;
+}
+
+#projects .project-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#projects .project-list .item img{
+    width: 100;
+    
+}
+
+#projects .project-list .item .title{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#projects .project-list .item .info{
+    font-size: 16px;
+    color: black;
+}
+
+.about{    
+    
+}
+
+.about-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.about-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    gap: 30px;
+}
+
+.about-list-item{
+    background-color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.about-list-item p{
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+}
