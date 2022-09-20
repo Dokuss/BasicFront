@@ -1,0 +1,14 @@
+#main {
+  padding: 10px;
+  background-color: white; }
+  #main p {
+    color: violet;
+    background-color: lime; }
+
+#products {
+  background-color: yellow; }
+
+#about-as {
+  background-color: lightblue; }
+
+/*# sourceMappingURL=style.css.map */

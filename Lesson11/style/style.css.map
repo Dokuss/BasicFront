@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACD,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,KAAK;EACvB,OAAC;IACG,KAAK,ECJQ,MAAM;IDKnB,gBAAgB,ECJF,IAAI;;ACD1B,SAAS;EACL,gBAAgB,EAAE,MAAM;;ACD5B,SAAS;EACL,gBAAgB,EAAE,SAAS",
+"sources": ["../sass/_main.sass","../sass/style.sass","../sass/_products.sass","../sass/_about-as.sass"],
+"names": [],
+"file": "style.css"
+}
