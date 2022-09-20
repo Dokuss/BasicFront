@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("../Fonts/Oswald/Oswald-VariableFont_wght.ttf"); }
+body {
+  font-family: Oswald; }
+
+header {
+  background-image: url("../media/Rectangle.jpg"); }
+
+/*# sourceMappingURL=style.css.map */
